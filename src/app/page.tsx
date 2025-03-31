@@ -21,8 +21,7 @@ export default function Home() {
             oportunidades de aprendizaje, nivel de ingles B2+.
           </p>
         </div>
-        <section>
-          <div className="footer">
+          <div>
             <div className="absolute bottom-[14rem] right-12 h-40 w-1 bg-blue-500"></div>
             <img className="absolute bottom-[4.5rem] left-1/2" src={Next.src} alt="" />
             <img
@@ -37,8 +36,9 @@ export default function Home() {
             />
             <div className="absolute bottom-0 right-12 h-20 w-1 bg-blue-500"></div>
           </div>
-        </section>
       </section>
+
+      <section className="h-screen bg-primaryBlue"></section>
     </div>
   );
 }
